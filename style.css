@@ -1,0 +1,128 @@
+/*styles*/
+h1{
+    font-size: ;
+    color: white;
+}
+nav{
+    background-color: grey;
+    padding: 20px;
+    
+    
+    
+    
+
+    border-bottom: 5px solid red;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    text-align: center;
+    border-radius: 5px solid green;
+    display: block;
+    padding: 5px;
+    display: inline;
+    border-radius: 1px;
+    overflow: hidden;
+
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+    border-right: 3px solid white;
+    padding: 19px 10px;
+}
+
+
+nav ul li a:hover{
+    background-color: rgba(7, 243, 39, 0.842);
+    transition: 0.9s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: saddlebrown;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    main{
+        padding: 10px;
+    }
+}
+footer{
+    background-color: crimson;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+input[type=text]{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 20px;
+    background-color: whitesmoke;
+}
+input[type=number]{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 20px;
+    background-color: whitesmoke;
+}
+input[type=email]{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 20px;
+    background-color: whitesmoke;
+
+}
+textarea[name=message]:focus{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 50px;
+    background-color: paleturquoise;
+}
+input[type=submit]{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 60%;
+    height: 40px;
+    color: white;
+    
+}
+#btn:hover{
+    background-color: fuchsia;
+    transition: 0.5s;
+}
+#center{
+    background-color: green;
+    border-radius: 12px;
+    width: 50%;
+    right: 0;
+    left: 50%;
+    
+    
+    
+}
+input[type=reset]{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+
+#rst:hover{
+    background-color: red;
+    transition: 0.5s;
+
+}
+
+
+
+
